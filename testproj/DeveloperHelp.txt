@@ -1,0 +1,28 @@
+To add element to the Data control:
+
+1. create a control in project window: new --> control
+2. define the variables you want
+3. Save the control file under control/ folder
+4. in Data.ctl insert the new control (right click --> select a control)
+5. in Data.ctl do File --> apply change
+ 
+
+
+To add an event in the state machine:
+1. create new button on front panel
+2. go to diagram and create a reference to set the initial value
+3. in the "wait for event state" add a case with the value of the created boolean button value changed
+4. add a UI reference in UIreference.ctl Apply changes
+5. add a state in State.ctl
+6. add a state in the state machine
+7. To make a dialog window: Go to File--> VI properties --> Window appearance --> Dialog
+
+
+
+
+
+
+Question / TO DO
+- C est quoi ASPIC data 2
+- gestion des erreurs dans set system
+- revoir les vi data receiver pour simplifier les diagrammes
